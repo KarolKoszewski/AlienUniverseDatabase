@@ -15,6 +15,14 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <ScrollViewer>
+        <StackPanel Margin="20" Spacing="10">
+            <TextBlock Text="Lista Filmów:"/>
+            
+            <ListBox>
+                
+            </ListBox>
+        </StackPanel>
+    </ScrollViewer>
 
 </Window>
