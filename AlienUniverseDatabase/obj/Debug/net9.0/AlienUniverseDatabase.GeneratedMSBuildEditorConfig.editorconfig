@@ -24,5 +24,11 @@ build_property.EnableCodeStyleSeverity =
 [/home/karol/RiderProjects/AlienUniverseDatabase/AlienUniverseDatabase/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[/home/karol/RiderProjects/AlienUniverseDatabase/AlienUniverseDatabase/Views/EkranPostaci.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/karol/RiderProjects/AlienUniverseDatabase/AlienUniverseDatabase/Views/ekranSzczegółowy.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [/home/karol/RiderProjects/AlienUniverseDatabase/AlienUniverseDatabase/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

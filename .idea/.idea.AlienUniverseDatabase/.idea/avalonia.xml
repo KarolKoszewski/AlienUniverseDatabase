@@ -3,7 +3,9 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="AlienUniverseDatabase/Views/EkranPostaci.axaml" value="AlienUniverseDatabase/AlienUniverseDatabase.csproj" />
         <entry key="AlienUniverseDatabase/Views/MainWindow.axaml" value="AlienUniverseDatabase/AlienUniverseDatabase.csproj" />
+        <entry key="AlienUniverseDatabase/Views/ekranSzczegółowy.axaml" value="AlienUniverseDatabase/AlienUniverseDatabase.csproj" />
       </map>
     </option>
   </component>
