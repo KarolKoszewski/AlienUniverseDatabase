@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/szymon/RiderProjects/AlienUniverseDatabase/AlienUniverseDatabase/AlienUniverseDatabase.csproj": {}
+    "C:\\Users\\karol\\RiderProjects\\AlienUniverseDatabase\\AlienUniverseDatabase\\AlienUniverseDatabase.csproj": {}
   },
   "projects": {
-    "/Users/szymon/RiderProjects/AlienUniverseDatabase/AlienUniverseDatabase/AlienUniverseDatabase.csproj": {
+    "C:\\Users\\karol\\RiderProjects\\AlienUniverseDatabase\\AlienUniverseDatabase\\AlienUniverseDatabase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/szymon/RiderProjects/AlienUniverseDatabase/AlienUniverseDatabase/AlienUniverseDatabase.csproj",
+        "projectUniqueName": "C:\\Users\\karol\\RiderProjects\\AlienUniverseDatabase\\AlienUniverseDatabase\\AlienUniverseDatabase.csproj",
         "projectName": "AlienUniverseDatabase",
-        "projectPath": "/Users/szymon/RiderProjects/AlienUniverseDatabase/AlienUniverseDatabase/AlienUniverseDatabase.csproj",
-        "packagesPath": "/Users/szymon/.nuget/packages/",
-        "outputPath": "/Users/szymon/RiderProjects/AlienUniverseDatabase/AlienUniverseDatabase/obj/",
+        "projectPath": "C:\\Users\\karol\\RiderProjects\\AlienUniverseDatabase\\AlienUniverseDatabase\\AlienUniverseDatabase.csproj",
+        "packagesPath": "C:\\Users\\karol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karol\\RiderProjects\\AlienUniverseDatabase\\AlienUniverseDatabase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/szymon/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\karol\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

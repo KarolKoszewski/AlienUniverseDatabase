@@ -6,6 +6,10 @@
         x:Class="AlienUniverseDatabase.Views.ekranSzczegółowy"
         Title="ekranSzczegółowy"
         >
-    <Button Content="Pokaż dane o postaciach" Width="100"
-            Click="Postacie_Click"/>
+    <ScrollViewer>
+        <StackPanel Margin="20" Spacing="10">
+            
+        </StackPanel>
+        
+    </ScrollViewer>
 </Window>

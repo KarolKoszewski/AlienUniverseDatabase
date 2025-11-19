@@ -1,3 +1,4 @@
+using AlienUniverseDatabase.Models;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
@@ -7,9 +8,10 @@ namespace AlienUniverseDatabase.Views;
 
 public partial class ekranSzczegółowy : Window
 {
-    public ekranSzczegółowy()
+    public ekranSzczegółowy(FilmySpis wybranyFilm)
     {
         InitializeComponent();
+        DataContext = wybranyFilm;
     }
 
     private void Postacie_Click(object? sender, RoutedEventArgs e)
