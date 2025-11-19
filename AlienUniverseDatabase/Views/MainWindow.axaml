@@ -17,11 +17,7 @@
 
     <ScrollViewer>
         <StackPanel Margin="20" Spacing="10">
-            <TextBlock Text="Lista Filmów:"/>
-            
-            <ListBox>
-                
-            </ListBox>
+            <TextBlock TextAlignment="Center" Text="Lista Filmów" FontSize="50"/>
         </StackPanel>
     </ScrollViewer>
 

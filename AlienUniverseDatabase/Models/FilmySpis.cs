@@ -11,8 +11,13 @@ public class FilmySpis
     public string Scenariusz { get; set; } = "";
     public string Gatunek { get; set; } = "";
     public int CzasTrwaniaMinuty { get; set; } = 0;
-    public int IMDbOcenaOd1do10 { get; set; } = 0;
-    public string GlownePostacie { get; set; } = "";
+    public double IMDbOcenaOd1do10 { get; set; } = 0;
+    public List<string> Postacie { get; set; } = new();
     public string Statek { get; set; } = "";
-    public List<PostacSpis> Postacie { get; set; } = new();
+    
+    public string OpisFabuly { get; set; } = "";
+    public string Ciekawostka { get; set; } = "";
+
+
+    
 }
