@@ -10,5 +10,5 @@ public class PostacSpis
     public string FunkcjaWZalodze { get; set; } = "";
     public string Charakterystyka { get; set; } = "";
     public string Los { get; set; } = "";
-    public string Ciekawostka { get; set; } = ""
+    public string Ciekawostka { get; set; } = "";
 }

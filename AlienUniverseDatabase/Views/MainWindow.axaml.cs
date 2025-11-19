@@ -12,5 +12,16 @@ public partial class MainWindow : Window
         InitializeComponent();
     }
 
+    private void DodajFilm_Click(object? sender, RoutedEventArgs e)
+    {
+        throw new System.NotImplementedException();
+    }
 
+    private void UsunFilm_Click(object? sender, RoutedEventArgs e)
+    {
+        if (FilmyListBox.SelectedItem is FilmySpis selectedFilm && DataContext is MainWindowViewModel viewM)
+        {
+            viewM.FilmySpisList.Remove(selectedFilm);
+        }
+    }
 }
