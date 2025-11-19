@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace AlienUniverseDatabase.Models;
 
 public class FilmySpis
@@ -12,4 +14,5 @@ public class FilmySpis
     public int IMDbOcenaOd1do10 { get; set; } = 0;
     public string GlownePostacie { get; set; } = "";
     public string Statek { get; set; } = "";
+    public List<PostacSpis> Postacie { get; set; } = new();
 }
