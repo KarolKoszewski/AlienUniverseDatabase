@@ -12,6 +12,17 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+        FilmyListBox.SelectionChanged += (sender, e) =>
+        {
+            if (FilmyListBox.SelectedItem != null)
+            {
+                var okno = new ekranSzczegółowy()
+                {
+                    DataContext = FilmyListBox.SelectedItem
+                };
+                okno.Show();
+            }
+        };
     }
 
     private void DodajFilm_Click(object? sender, RoutedEventArgs e)

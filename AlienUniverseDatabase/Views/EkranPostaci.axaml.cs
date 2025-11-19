@@ -8,6 +8,6 @@ public partial class EkranPostaci : Window
 {
     public EkranPostaci()
     {
-        
+        InitializeComponent();
     }
 }

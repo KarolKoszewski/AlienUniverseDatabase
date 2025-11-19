@@ -18,7 +18,7 @@
     <ScrollViewer>
         <StackPanel Margin="20" Spacing="10">
             <TextBlock TextAlignment="Center" Text="Lista Filmów" FontSize="50"/>
-            <ListBox x:Name="FilmyListBox" ItemsSource="{Binding FilmySpisList}" Margin="10">
+            <ListBox x:Name="FilmyListBox" ItemsSource="{Binding FilmySpisList}" SelectedItem="{ Binding WybranyListBox}" Margin="10">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal" Margin="5">

@@ -5,6 +5,7 @@ namespace AlienUniverseDatabase.ViewModels;
 
 public partial class MainWindowViewModel : ViewModelBase
 {
+    public FilmySpis WybranyListBox { get; set; }
     public ObservableCollection<FilmySpis> FilmySpisList { get; } = new()
     {
         new FilmySpis
