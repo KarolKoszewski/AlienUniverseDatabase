@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlienUniverseDatabase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+978fbb49b244f7475d18580e1cb2e72d2b24d8b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c6db96bd67f7cd180e1b161ce4a71b767fc5fc2")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlienUniverseDatabase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlienUniverseDatabase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
