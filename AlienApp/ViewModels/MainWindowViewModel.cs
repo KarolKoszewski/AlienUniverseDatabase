@@ -280,7 +280,7 @@ public class MainWindowViewModel : ViewModelBase
 
     public FilmyModel NewFilm
     {
-        get => _newFilm;
+        get => _newFilm; 
         set => this.RaiseAndSetIfChanged(ref _newFilm, value);
     }
 
@@ -288,8 +288,18 @@ public class MainWindowViewModel : ViewModelBase
     {
         DodajFilm = ReactiveCommand.Create(() =>
         {
-            Filmy.Add(NewFilm);
-            NewFilm = new FilmyModel();
+            if (NewFilm != null)
+            {
+                Filmy.Add(NewFilm);
+                NewFilm = new FilmyModel();   
+            }
+        });
+        UsuńFilm = ReactiveCommand.Create(() =>
+        {
+            if (WybranyFilm != null)
+            {
+                Filmy.Remove(WybranyFilm);
+            }
         });
     }
 }
