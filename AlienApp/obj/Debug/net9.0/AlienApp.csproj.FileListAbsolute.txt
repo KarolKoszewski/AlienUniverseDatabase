@@ -67,8 +67,6 @@
 /Users/szymon/RiderProjects/AlienApp/AlienApp/obj/Debug/net9.0/AlienApp.AssemblyInfoInputs.cache
 /Users/szymon/RiderProjects/AlienApp/AlienApp/obj/Debug/net9.0/AlienApp.AssemblyInfo.cs
 /Users/szymon/RiderProjects/AlienApp/AlienApp/obj/Debug/net9.0/AlienApp.csproj.CoreCompileInputs.cache
-/Users/szymon/RiderProjects/AlienApp/AlienApp/obj/Debug/net9.0/AlienApp.csproj.Fody.CopyLocal.cache
-/Users/szymon/RiderProjects/AlienApp/AlienApp/obj/Debug/net9.0/AlienApp.csproj.Fody.RuntimeCopyLocal.cache
 /Users/szymon/RiderProjects/AlienApp/AlienApp/obj/Debug/net9.0/AlienApp.csproj.Up2Date
 /Users/szymon/RiderProjects/AlienApp/AlienApp/obj/Debug/net9.0/AlienApp.dll
 /Users/szymon/RiderProjects/AlienApp/AlienApp/obj/Debug/net9.0/refint/AlienApp.dll
@@ -76,3 +74,5 @@
 /Users/szymon/RiderProjects/AlienApp/AlienApp/obj/Debug/net9.0/AlienApp.genruntimeconfig.cache
 /Users/szymon/RiderProjects/AlienApp/AlienApp/obj/Debug/net9.0/ref/AlienApp.dll
 /Users/szymon/RiderProjects/AlienApp/AlienApp/obj/Debug/net9.0/AlienApp.sourcelink.json
+/Users/szymon/RiderProjects/AlienApp/AlienApp/obj/Debug/net9.0/AlienApp.csproj.Fody.CopyLocal.cache
+/Users/szymon/RiderProjects/AlienApp/AlienApp/obj/Debug/net9.0/AlienApp.csproj.Fody.RuntimeCopyLocal.cache

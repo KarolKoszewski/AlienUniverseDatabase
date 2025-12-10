@@ -1,6 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using System.Reactive;
 using AlienApp.Models;
+using AlienApp.Views;
 using ReactiveUI;
 
 namespace AlienApp.ViewModels;
@@ -283,23 +284,27 @@ public class MainWindowViewModel : ViewModelBase
         get => _newFilm; 
         set => this.RaiseAndSetIfChanged(ref _newFilm, value);
     }
-
     public MainWindowViewModel()
     {
         DodajFilm = ReactiveCommand.Create(() =>
         {
-            if (NewFilm != null)
-            {
                 Filmy.Add(NewFilm);
                 NewFilm = new FilmyModel();   
-            }
         });
         UsuńFilm = ReactiveCommand.Create(() =>
         {
-            if (WybranyFilm != null)
+            if (NewFilm != null)
             {
                 Filmy.Remove(WybranyFilm);
             }
+        });
+        PokazBohatera = ReactiveCommand.Create(() =>
+        {
+            var okno = new Bohater()
+            {
+                DataContext = Postacie
+            };
+            okno.Show();
         });
     }
 }

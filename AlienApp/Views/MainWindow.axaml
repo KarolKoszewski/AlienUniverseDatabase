@@ -33,6 +33,8 @@
                     Command="{Binding DodajFilm}"/>
             <Button Content="Usuń film" Width="100"
                     Command="{Binding UsuńFilm}"/>
+            <Button Content="Pokaz bohaterów"
+                    Command="{Binding PokazBohatera}"/>
         </StackPanel>
         <StackPanel Orientation="Vertical" Margin="0,0,0,10">
             <TextBox Width="400" Watermark="Tytuł oryginalny" Margin="5" Text="{Binding NewFilm.TytulOrginalny}"/>
@@ -47,6 +49,18 @@
             <TextBox Width="400" Watermark="Statek" Margin="5" Text="{Binding NewFilm.Statek}"/>
             <TextBox Width="400" Watermark="Opis fabuły" Margin="5" Height="60" Text="{Binding NewFilm.OpisFabuly}"/>
             <TextBox Width="400" Watermark="Ciekawostka" Margin="5" Height="40" Text="{Binding NewFilm.Ciekawostka}"/>
+        </StackPanel>
+        <StackPanel Spacing="10">
+            <TextBlock Text="{Binding WybranyFilm.TytulOrginalny}" FontSize="20"/>
+            <TextBlock Text="{Binding WybranyFilm.TytulPolski}"/>
+            <TextBlock Text="{Binding WybranyFilm.Rezyser}"/>
+            <TextBlock Text="{Binding WybranyFilm.Gatunek}"/>
+            <TextBlock Text="Czas twrania w minutach: "/>
+            <TextBlock Text="{Binding WybranyFilm.CzasTrwaniaMinuty}"/>
+            <TextBlock Text="Ocena: "/>
+            <ProgressBar Minimum="0" Maximum="10" Value="{Binding WybranyFilm.IMDbOcenaOd1do10}"/>
+            <TextBlock Text="{Binding WybranyFilm.OpisFabuly}" TextWrapping="Wrap"/>
+            <TextBlock Text="{Binding WybranyFilm.Ciekawostka}" TextWrapping="Wrap"/>
         </StackPanel>
     </StackPanel>
     </ScrollViewer>
