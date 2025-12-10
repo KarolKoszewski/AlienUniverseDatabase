@@ -265,7 +265,31 @@ public class MainWindowViewModel : ViewModelBase
             Charakterystyka = "Pragmatyczna, ale odważna i zdeterminowana.",
             Los = "Zostaje uśpiona w kapsule przez Davida, który podszywa się pod androida Waltera.",
             Ciekawostka = "Scott chciał, by Daniels była symbolicznym „nowym początkiem” linii bohaterek."
-        },
+        }
     };
 
+    private FilmyModel _wybranyFilm;
+
+    public FilmyModel WybranyFilm
+    {
+        get => _wybranyFilm;
+        set => this.RaiseAndSetIfChanged(ref _wybranyFilm, value);
+    }
+
+    private FilmyModel _newFilm = new FilmyModel();
+
+    public FilmyModel NewFilm
+    {
+        get => _newFilm;
+        set => this.RaiseAndSetIfChanged(ref _newFilm, value);
+    }
+
+    public MainWindowViewModel()
+    {
+        DodajFilm = ReactiveCommand.Create(() =>
+        {
+            Filmy.Add(NewFilm);
+            NewFilm = new FilmyModel();
+        });
+    }
 }

@@ -14,6 +14,40 @@
              to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
         <vm:MainWindowViewModel/>
     </Design.DataContext>
-    
-
+    <ScrollViewer>
+    <StackPanel>
+        <TextBlock TextAlignment="Center"> Allien Universe </TextBlock>
+        <ListBox ItemsSource="{Binding Filmy}"
+                 SelectedItem="{Binding WybranyFilm}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" Margin="5">
+                        <TextBlock Text="{Binding TytulOrginalny}" Width="200"/>
+                        <TextBlock Text="{Binding TytulPolski}" Width="250" Margin="10,0,0,0"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <StackPanel Orientation="Horizontal"  >
+            <Button Content="Dodaj film" Width="100"
+                    Command="{Binding DodajFilm}"/>
+            <Button Content="Usuń film" Width="100"
+                    Command="{Binding UsuńFilm}"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Margin="0,0,0,10">
+            <TextBox Width="400" Watermark="Tytuł oryginalny" Margin="5" Text="{Binding NewFilm.TytulOrginalny}"/>
+            <TextBox Width="400" Watermark="Tytuł polski" Margin="5" Text="{Binding NewFilm.TytulPolski}"/>
+            <TextBox Width="400" Watermark="Rok premiery" Margin="5" Text="{Binding NewFilm.RokPremiery}"/>
+            <TextBox Width="400" Watermark="Reżyser" Margin="5" Text="{Binding NewFilm.Rezyser}"/>
+            <TextBox Width="400" Watermark="Scenariusz" Margin="5" Text="{Binding NewFilm.Scenariusz}"/>
+            <TextBox Width="400" Watermark="Gatunek" Margin="5" Text="{Binding NewFilm.Gatunek}"/>
+            <TextBox Width="400" Watermark="Czas trwania (minuty)" Margin="5" Text="{Binding NewFilm.CzasTrwaniaMinuty}"/>
+            <TextBox Width="400" Watermark="Ocena IMDb" Margin="5" Text="{Binding NewFilm.IMDbOcenaOd1do10}"/>
+            <TextBox Width="400" Watermark="Postacie (oddziel przecinkiem)" Margin="5" Text="{Binding NewFilm.Postacie}"/>
+            <TextBox Width="400" Watermark="Statek" Margin="5" Text="{Binding NewFilm.Statek}"/>
+            <TextBox Width="400" Watermark="Opis fabuły" Margin="5" Height="60" Text="{Binding NewFilm.OpisFabuly}"/>
+            <TextBox Width="400" Watermark="Ciekawostka" Margin="5" Height="40" Text="{Binding NewFilm.Ciekawostka}"/>
+        </StackPanel>
+    </StackPanel>
+    </ScrollViewer>
 </Window>

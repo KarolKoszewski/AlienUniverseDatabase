@@ -75,3 +75,4 @@
 /Users/szymon/RiderProjects/AlienApp/AlienApp/obj/Debug/net9.0/AlienApp.pdb
 /Users/szymon/RiderProjects/AlienApp/AlienApp/obj/Debug/net9.0/AlienApp.genruntimeconfig.cache
 /Users/szymon/RiderProjects/AlienApp/AlienApp/obj/Debug/net9.0/ref/AlienApp.dll
+/Users/szymon/RiderProjects/AlienApp/AlienApp/obj/Debug/net9.0/AlienApp.sourcelink.json
